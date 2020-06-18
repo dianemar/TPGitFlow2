@@ -1,0 +1,36 @@
+/*
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    color:blue;
+    background-color: #FF4040;
+    margin-bottom: 14px;
+    list-style-type: square
+}
+
+.info{
+    background-color: yellow;
+}
+*/
+/* exo 7 */
+p.rouge{
+    color:red
+}
+p.vert{
+    color:green
+}
+
+div.code{
+    font-family: 'Courier New', Courier, monospace
+}
+
+div.exemple{
+    font-family: 'Courier New', Courier, monospace
+}
+
+ol li{
+    background-color: yellow;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html">
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Exo Formulaire</title>
+</head>
+
+<body>
+
+    <form action="traitement" method="post">
+        Entrez votre nom
+        <input type="text" name="nom">
+        <br>
+        Entrez votre adresse mail
+        <input type="text" name="email">
+        <br>
+        Etes-vous à la Fnac :
+        OUI <input type="radio" name="fnac">
+        NON <input type="radio" name="fnac">
+        <br>
+        <input type="button" value="Envoyer" name="envoyer">
+        <input type="button" value="Annuler" name="Annuler">
+    </form>
+
+    Avec Tableau
+    <form action="mailto:dmarinot@sii.fr" method="post">
+        <table width="400">
+            <tr>
+                <td>Entrez votre nom</td>
+                <td><input type="text" name="nom"></td>
+            </tr><br>
+            <tr>
+                <td>Entrez votre adresse mail</td>
+                <td><input type="text" name="email"></td>
+            </tr><br>
+            <tr>
+                <td>Etes-vous à la Fnac :</td>
+                <td>
+                    OUI <input type="radio" name="fnac">
+                    NON <input type="radio" name="fnac">
+                </td>
+            </tr><br>
+            <tr>
+                <td align="right"> <input type="submit" value="Envoyer"></td>
+                <td><input type="Reset" value="Annuler"></td>
+            </tr><br>
+        </table>
+    </form>
+
+    
+
+<form>
+    <select name="nom">
+    <option>Lundi</option>
+    <option>Mardi</option>
+    <option>Mercredi</option>
+    <option>Jeudi</option>
+    <option>Vendredi</option>
+    </select>
+    </form>
+
+</body>
+
+</html>
